@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CD7B59916E1C0A6009E9ED8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD7B59816E1C0A6009E9ED8 /* UIKit.framework */; };
+		5CD7B59B16E1C0A6009E9ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD7B59A16E1C0A6009E9ED8 /* Foundation.framework */; };
+		5CD7B59D16E1C0A6009E9ED8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD7B59C16E1C0A6009E9ED8 /* CoreGraphics.framework */; };
+		5CD7B5A316E1C0A6009E9ED8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CD7B5A116E1C0A6009E9ED8 /* InfoPlist.strings */; };
+		5CD7B5A516E1C0A6009E9ED8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7B5A416E1C0A6009E9ED8 /* main.m */; };
+		5CD7B5A916E1C0A6009E9ED8 /* AKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7B5A816E1C0A6009E9ED8 /* AKAppDelegate.m */; };
+		5CD7B5AB16E1C0A6009E9ED8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD7B5AA16E1C0A6009E9ED8 /* Default.png */; };
+		5CD7B5AD16E1C0A6009E9ED8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD7B5AC16E1C0A6009E9ED8 /* Default@2x.png */; };
+		5CD7B5AF16E1C0A6009E9ED8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD7B5AE16E1C0A6009E9ED8 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CD7B59416E1C0A5009E9ED8 /* 农化通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "农化通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD7B59816E1C0A6009E9ED8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CD7B59A16E1C0A6009E9ED8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CD7B59C16E1C0A6009E9ED8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CD7B5A016E1C0A6009E9ED8 /* 农化通-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "农化通-Info.plist"; sourceTree = "<group>"; };
+		5CD7B5A216E1C0A6009E9ED8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CD7B5A416E1C0A6009E9ED8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CD7B5A616E1C0A6009E9ED8 /* 农化通-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "农化通-Prefix.pch"; sourceTree = "<group>"; };
+		5CD7B5A716E1C0A6009E9ED8 /* AKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKAppDelegate.h; sourceTree = "<group>"; };
+		5CD7B5A816E1C0A6009E9ED8 /* AKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKAppDelegate.m; sourceTree = "<group>"; };
+		5CD7B5AA16E1C0A6009E9ED8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5CD7B5AC16E1C0A6009E9ED8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5CD7B5AE16E1C0A6009E9ED8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD7B59116E1C0A5009E9ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD7B59916E1C0A6009E9ED8 /* UIKit.framework in Frameworks */,
+				5CD7B59B16E1C0A6009E9ED8 /* Foundation.framework in Frameworks */,
+				5CD7B59D16E1C0A6009E9ED8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CD7B58916E1C0A5009E9ED8 = {
+			isa = PBXGroup;
+			children = (
+				5CD7B59E16E1C0A6009E9ED8 /* 农化通 */,
+				5CD7B59716E1C0A5009E9ED8 /* Frameworks */,
+				5CD7B59516E1C0A5009E9ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD7B59516E1C0A5009E9ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD7B59416E1C0A5009E9ED8 /* 农化通.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD7B59716E1C0A5009E9ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CD7B59816E1C0A6009E9ED8 /* UIKit.framework */,
+				5CD7B59A16E1C0A6009E9ED8 /* Foundation.framework */,
+				5CD7B59C16E1C0A6009E9ED8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CD7B59E16E1C0A6009E9ED8 /* 农化通 */ = {
+			isa = PBXGroup;
+			children = (
+				5CD7B5A716E1C0A6009E9ED8 /* AKAppDelegate.h */,
+				5CD7B5A816E1C0A6009E9ED8 /* AKAppDelegate.m */,
+				5CD7B59F16E1C0A6009E9ED8 /* Supporting Files */,
+			);
+			path = "农化通";
+			sourceTree = "<group>";
+		};
+		5CD7B59F16E1C0A6009E9ED8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CD7B5A016E1C0A6009E9ED8 /* 农化通-Info.plist */,
+				5CD7B5A116E1C0A6009E9ED8 /* InfoPlist.strings */,
+				5CD7B5A416E1C0A6009E9ED8 /* main.m */,
+				5CD7B5A616E1C0A6009E9ED8 /* 农化通-Prefix.pch */,
+				5CD7B5AA16E1C0A6009E9ED8 /* Default.png */,
+				5CD7B5AC16E1C0A6009E9ED8 /* Default@2x.png */,
+				5CD7B5AE16E1C0A6009E9ED8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CD7B59316E1C0A5009E9ED8 /* 农化通 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD7B5B216E1C0A6009E9ED8 /* Build configuration list for PBXNativeTarget "农化通" */;
+			buildPhases = (
+				5CD7B59016E1C0A5009E9ED8 /* Sources */,
+				5CD7B59116E1C0A5009E9ED8 /* Frameworks */,
+				5CD7B59216E1C0A5009E9ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "农化通";
+			productName = "农化通";
+			productReference = 5CD7B59416E1C0A5009E9ED8 /* 农化通.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD7B58B16E1C0A5009E9ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AK;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "山东乐世安通通信技术有限公司";
+			};
+			buildConfigurationList = 5CD7B58E16E1C0A5009E9ED8 /* Build configuration list for PBXProject "农化通" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CD7B58916E1C0A5009E9ED8;
+			productRefGroup = 5CD7B59516E1C0A5009E9ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD7B59316E1C0A5009E9ED8 /* 农化通 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CD7B59216E1C0A5009E9ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD7B5A316E1C0A6009E9ED8 /* InfoPlist.strings in Resources */,
+				5CD7B5AB16E1C0A6009E9ED8 /* Default.png in Resources */,
+				5CD7B5AD16E1C0A6009E9ED8 /* Default@2x.png in Resources */,
+				5CD7B5AF16E1C0A6009E9ED8 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CD7B59016E1C0A5009E9ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD7B5A516E1C0A6009E9ED8 /* main.m in Sources */,
+				5CD7B5A916E1C0A6009E9ED8 /* AKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CD7B5A116E1C0A6009E9ED8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD7B5A216E1C0A6009E9ED8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CD7B5B016E1C0A6009E9ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CD7B5B116E1C0A6009E9ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CD7B5B316E1C0A6009E9ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "农化通/农化通-Prefix.pch";
+				INFOPLIST_FILE = "农化通/农化通-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CD7B5B416E1C0A6009E9ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "农化通/农化通-Prefix.pch";
+				INFOPLIST_FILE = "农化通/农化通-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CD7B58E16E1C0A5009E9ED8 /* Build configuration list for PBXProject "农化通" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD7B5B016E1C0A6009E9ED8 /* Debug */,
+				5CD7B5B116E1C0A6009E9ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD7B5B216E1C0A6009E9ED8 /* Build configuration list for PBXNativeTarget "农化通" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD7B5B316E1C0A6009E9ED8 /* Debug */,
+				5CD7B5B416E1C0A6009E9ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CD7B58B16E1C0A5009E9ED8 /* Project object */;
+}
